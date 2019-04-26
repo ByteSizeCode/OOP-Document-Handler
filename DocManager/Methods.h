@@ -83,6 +83,7 @@ void newDocument() {
     docManager.addDocToManager(myDoc);
     
 }
+
 void removeDocument() {
     string userWantingToQuitStatus = "";
     while(userWantingToQuitStatus != "QUIT") {

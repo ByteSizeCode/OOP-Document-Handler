@@ -5,8 +5,8 @@
 //  Copyright © 2019 Isaac Raval. All rights reserved.
 //
 
-#ifndef Contact_h
-#define Contact_h
+#ifndef Document_h
+#define Document_h
 
 #include <string>
 using namespace std;
@@ -30,4 +30,4 @@ public:
     }
 };
 
-#endif /* Contact_h */
+#endif /* Document_h */

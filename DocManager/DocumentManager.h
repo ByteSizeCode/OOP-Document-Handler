@@ -24,7 +24,7 @@ public:
     }
 };
 
-//Create document manager
+//Create document manager object
 DocumentManager docManager;
 
 #endif /* AddressBook_h */

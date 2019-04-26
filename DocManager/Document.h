@@ -1,5 +1,5 @@
 //
-//  Contact.h
+//  Document.h
 //
 //  Created by Isaac Raval on 4/25/19.
 //  Copyright © 2019 Isaac Raval. All rights reserved.

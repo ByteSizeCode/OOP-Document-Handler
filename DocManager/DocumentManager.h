@@ -5,8 +5,8 @@
 //  Copyright © 2019 Isaac Raval. All rights reserved.
 //
 
-#ifndef AddressBook_h
-#define AddressBook_h
+#ifndef DocumentManager_h
+#define DocumentManager_h
 
 class DocumentManager {
 private:
@@ -26,4 +26,4 @@ public:
 //Create document manager object
 DocumentManager docManager;
 
-#endif /* AddressBook_h */
+#endif /* DocumentManager_h */

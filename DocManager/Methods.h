@@ -49,7 +49,7 @@ void viewDocument() {
             << docManager.allDocs().at(userInput).getDocContents()
             << endl << endl;
         
-        cout << "Type QUIT to quit or hit enter to view another document:" << endl;
+        cout << "Type QUIT to return to menu or hit enter to view another document:" << endl;
         
         //Flush buffer
         cin.ignore();
@@ -65,7 +65,7 @@ void newDocument() {
     getline(cin, docTitle);
     
     //Add content to doc
-    cout << "Enter content. \"QUIT\" to quit:" << endl;
+    cout << "Enter content. \"QUIT\" to return to menu:" << endl;
     string userInput = "";
     stringstream docContents;
     while(userInput != "QUIT") {
@@ -119,7 +119,7 @@ void removeDocument() {
         cout << "Removed document " << userInput << endl;
         docManager.removeDoc(userInput);
         
-        cout << "Type QUIT to quit or hit enter to remove another document:" << endl;
+        cout << "Type QUIT to return to menu or hit enter to remove another document:" << endl;
         
         //Flush buffer
         cin.ignore();

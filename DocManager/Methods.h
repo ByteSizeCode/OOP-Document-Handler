@@ -129,7 +129,9 @@ void removeDocument() {
 }
 
 void homeMenu() {
-    cout << "Home Menu:" << endl << "N-> new document, V-> view existing document, R-> remove existing document, Q-> quit:" << endl;
+    cout << "Home Menu:" << endl
+        << "N-> new document, V-> view existing document, R-> remove existing document, Q-> quit:"
+        << endl;
     string userAction = "";
     while(userAction != "N"
           && userAction != "V"

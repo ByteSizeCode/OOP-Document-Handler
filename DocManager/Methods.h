@@ -56,7 +56,6 @@ void viewDocument() {
         
         getline(cin, userWantingToQuitStatus);
     }
-    
 }
 
 void newDocument() {
@@ -64,8 +63,6 @@ void newDocument() {
     string docTitle = "";
     cout << "Enter title for Document" << endl;
     getline(cin, docTitle);
-    
-    
     
     //Add content to doc
     cout << "Enter content. \"QUIT\" to quit:" << endl;

@@ -11,6 +11,9 @@
 #include <sstream>
 #include <fstream>
 
+//Create document manager object
+DocumentManager docManager;
+
 void viewDocument() {
     string userWantingToQuitStatus = "";
     while(userWantingToQuitStatus != "QUIT") {

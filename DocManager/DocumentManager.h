@@ -23,7 +23,4 @@ public:
     }
 };
 
-//Create document manager object
-DocumentManager docManager;
-
 #endif /* DocumentManager_h */
